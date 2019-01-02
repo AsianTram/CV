@@ -1,0 +1,18 @@
+#type{
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+}
+#category{
+    text-align: center;
+}
+#simple-category{
+    text-align: center;
+    border: 0.5 px solid gainsboro;
+    background-color: gainsboro;
+}
+#category{
+    border: 0.5 px solid gainsboro;
+    background-color: gainsboro;
+}
