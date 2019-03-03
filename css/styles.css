@@ -1,18 +1,62 @@
-#type{
-    padding: 10px;
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h5{
+    font-weight: 5em;
+}
+.container{
+    width: 80%;
+    margin: 10%;
     text-align: center;
+}
+#myCarousel{
+    /* margin-bottom: 3em; */
+}
+
+.card{
+    width: 30%;
+    height: 40rem;
+    border: 0.5em solid grey;
+    border-radius:2%; 
+    padding: 1rem;
     display: inline-block;
-    width: 40%;
+    margin: 2em;
+    vertical-align: middle;
+    background-color: white;
 }
-#category{
-    text-align: center;
+
+/* The below code is from W3School, not made by me */
+
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide; 
+  /* The duration of the animation */
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible; 
 }
-#simple-category{
-    text-align: center;
-    border: 0.5 px solid gainsboro;
-    background-color: gainsboro;
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  } 
 }
-#category{
-    border: 0.5 px solid gainsboro;
-    background-color: gainsboro;
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
