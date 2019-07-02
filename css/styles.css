@@ -18,7 +18,7 @@ nav .container-fluid .navbar-header i{
   height: 600px;}
 
 .card{
-    width: 30%;
+    width: 26%;
     height: 40rem;
     border: 0.5em solid grey;
     border-radius:2%; 
@@ -70,7 +70,7 @@ nav .container-fluid .navbar-header i{
 
 
 
-
+@media only screen and (min-width: 1000px) {
 /* The below code is from W3School, not made by me */
 
 .slideanim {visibility:hidden;}
@@ -105,4 +105,5 @@ nav .container-fluid .navbar-header i{
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
 }
